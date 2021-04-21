@@ -1,0 +1,28 @@
+/* NAVBAR */
+.navbar {
+	background-color: rgba(60, 99, 130, 0.5);
+	padding: 0.80% 0;
+	font-size: 1.2em;
+	color: #dcdde1;
+	border: 0;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-logo {
+	padding: 0 15px 5px;
+    min-height: 55px;
+}
+
+#logo-header{
+    max-width: 200px;
+}
+
+.navbar-default .navbar-nav li a{
+	color: #dcdde1;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active, .navbar-default .navbar-nav li a:focus{
+	color: #82ccdd;
+	font-weight: bold;
+}
