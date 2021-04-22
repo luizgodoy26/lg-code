@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+body{
+    background-color: #ffffff;
+    opacity: 1;
+    background-image: radial-gradient(#e0e0e0 1px, #ffffff 1px);
+    background-size: 20px 20px;
+}
+
+section{
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
 /* NAVBAR */
 nav {
     position: fixed;
@@ -83,6 +96,26 @@ nav.dark ul li a:hover{
 /* FIM NAVBAR */
 
 
+
+
+/* SERVIÇOS */
+
+#servicos > #fa-serv {
+	padding: 15px;
+	font-size: 75px;
+	color:#82ccdd;
+}
+
+#servicos:hover > #fa-serv {
+	color:#60a3bc;
+	font-size: 95px;
+	transition: 0.75s;
+}
+/* FIM SERVIÇOS */
+
+
+
+
 /* HOME */
 #home {
 	background: url(img/banner-home-2.jpg) no-repeat center center fixed;
@@ -109,6 +142,99 @@ nav.dark ul li a:hover{
 	color: #dcdde1;
 }
 /* FIM HOME */
+
+
+
+/* FOOTER */
+footer {
+	min-width: 100%;
+	background: #2c3e50;
+	padding: 5% 5% 5% 0%;
+	color: #fff;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #fff;
+    text-decoration: none;
+
+}
+
+.fa:hover {
+	color: #82ccdd;
+	text-decoration: none;
+	font-size: 35px;
+	transition: 0.5s;
+}
+
+.icon {
+	max-width: 250px;
+}
+
+.borda-footer{
+	display: block;
+    width: 90px;
+    height: 3px;
+    background: #82ccdd;
+    margin: 20px auto;
+}
+
+#footer-icon{
+	font-size: 20px;
+	color: #D5D5D5;
+}
+
+#contact-h5{
+	font-size: 15px;
+	display: inline-block;
+}
+
+.assinatura{
+	padding-top: 15px;
+	padding-bottom: 10px;
+	max-height: 250px;
+	background: #263646;
+	color: #fff;
+	text-align: center;
+	justify-content: center;
+}
+
+.icon-lgcode{
+	max-width: 100px;
+}
+
+ul li{
+    list-style: none;
+}
+
+#footer-ul{
+    margin-left: -50px;
+}
+
+/* FIM FOOTER */
+
+
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2c3e50;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #60a3bc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3c6382;
+}
+/* FIM SCROLLBAR */
+
+
 
 
 
